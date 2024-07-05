@@ -20,7 +20,7 @@ export const createTransaction = async (transaction: CreateTransactionProps) => 
       {
         channel: 'online',
         category: 'Transfer',
-        ...transaction
+        ...transaction 
       }
     )
 
